@@ -1,0 +1,59 @@
+body {
+  background-color: #595647;
+  color: #fff;
+  padding: 10px;
+  font-family: Georgia;
+}
+
+#about-me-heading {
+  color: #9ac2f9;
+  margin-bottom: 2rem;
+}
+
+.about-me-paragraph {
+  margin-bottom: 20px;
+}
+div > strong {
+  color: #c7c561;
+}
+
+hr {
+  opacity: 0.5;
+}
+
+.section {
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.section__heading {
+  color: #9ac2f9;
+  margin-bottom: 20px;
+}
+
+.section ul,
+ol {
+  margin: 1em 0;
+  padding-left: 40px;
+}
+
+section a {
+  color: rgb(214, 20, 20);
+  text-decoration: none;
+}
+section a:hover {
+  text-decoration: underline;
+}
+
+.section__mood {
+  display: inline;
+}
+
+.section ul li::first-letter,
+.section ol li::first-letter {
+  font-size: 200%;
+}
+
+dt {
+  color: #c7c561;
+}
